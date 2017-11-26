@@ -1,0 +1,36 @@
+$blue: rgb(1, 170, 255);
+
+._MultiStep {
+  // wrapper for the navigation buttons
+  ._Navigation {
+    width: 100%;
+    margin-bottom: 20px;
+    ._Navigation-tabs {
+      text-align: center;
+    }
+  }
+
+  // the individual navigation tab text above the step content
+  ._NavigationTab {
+    color: grey;
+    width: 40px;
+    margin: 0 0.5em;
+    &:hover {
+      cursor: pointer;
+    }
+    &.active {
+      color: $blue;
+      border-bottom: 2px solid $blue;
+    }
+  }
+
+  // the wrapper for the step content
+  ._Step {
+    padding: 1em;
+    display: none;
+    &.active {
+      display: block;
+    }
+  }
+
+}

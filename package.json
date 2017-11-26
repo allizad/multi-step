@@ -1,0 +1,20 @@
+{
+  "name": "multi-step",
+  "version": "1.0.0",
+  "description": "A simple stepped interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "keywords": [
+    "tabs",
+    "tab",
+    "steps",
+    "javascript",
+    "steps",
+    "stepped",
+    "form"
+  ],
+  "author": "Allison Hammond Zadrozny",
+  "license": "ISC"
+}
